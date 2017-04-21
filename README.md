@@ -7,4 +7,4 @@ Prior to usage, you must install selenium
 
 `pip install selenium`
 
-then [set up](https://sites.google.com/a/chromium.org/chromedriver/downloads) the correct drivers for chrome
+then set up the correct [driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) for chrome.
