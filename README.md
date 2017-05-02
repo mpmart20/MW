@@ -8,3 +8,7 @@ Prior to usage, you must install selenium
 `pip install selenium`
 
 then set up the correct [driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) for chrome.
+
+You must also install [driver](https://github.com/dbader/schedule) if you want to create jobs that are to be down at a certain time:
+
+`pip install schedule`
