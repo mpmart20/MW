@@ -10,6 +10,8 @@ driver = webdriver.Chrome()
 def driveChamps(url):
     driver.get(url)
     time.sleep(5)
+
+    #work around surveys and other popups
     driver.refresh()
     time.sleep(5)
     driver.refresh()

@@ -14,7 +14,7 @@ def checkPrice(budget, price):
         return True
     return False
 
-#Drives the amazon web crawler ||| Designed for items without sizing
+#Drives the amazon crawler ||| Designed for items without sizing
 def driveAmazon(url,budget):
     driver.refresh()
     driver.get(url)
